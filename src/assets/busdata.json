@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "Bus Name":"National Travels",
+        "Departure Time":"10:00 AM",
+        "Source":"Chennai",
+        "Destination":"Bangalore",
+        "Fare":600,
+        "Coach Type":"AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 2,
+        "Bus Name":"National Travels",
+        "Departure Time":"11:30 AM",
+        "Source":"Chennai",
+        "Destination":"Mumbai",
+        "Fare":600,
+        "Coach Type":"AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 3,
+        "Bus Name":"Prime Travels",
+        "Departure Time":"06:00 AM",
+        "Source":"Kolkata",
+        "Destination":"Chennai",
+        "Fare":600,
+        "Coach Type":"AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 4,
+        "Bus Name":"Prime Travels",
+        "Departure Time":"08:30 AM",
+        "Source":"Mumbai",
+        "Destination":"Bangalore",
+        "Fare":600,
+        "Coach Type":"AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 5,
+        "Bus Name":"Elite Travels",
+        "Departure Time":"05:00 PM",
+        "Source":"Mumbai",
+        "Destination":"Delhi",
+        "Fare":500,
+        "Coach Type":"Non AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 6,
+        "Bus Name":"Prime Travels",
+        "Departure Time":"05:00 PM",
+        "Source":"Bangalore",
+        "Destination":"Chennai",
+        "Fare":500,
+        "Coach Type":"Non AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 7,
+        "Bus Name":"National Travels",
+        "Departure Time":"7:00 AM",
+        "Source":"Delhi",
+        "Destination":"Bangalore",
+        "Fare":500,
+        "Coach Type":"Non AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 8,
+        "Bus Name":"Elite Travels",
+        "Departure Time":"10:00 AM",
+        "Source":"Delhi",
+        "Destination":"Mumbai",
+        "Fare":500,
+        "Coach Type":"Non AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 9,
+        "Bus Name":"Prime Travels",
+        "Departure Time":"08:00 PM",
+        "Source":"Delhi",
+        "Destination":"Bangalore",
+        "Fare":500,
+        "Coach Type":"Non AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 10,
+        "Bus Name":"Prime Travels",
+        "Departure Time":"05:00 AM",
+        "Source":"Chennai",
+        "Destination":"Delhi",
+        "Fare":600,
+        "Coach Type":"AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 11,
+        "Bus Name":"Elite Travels",
+        "Departure Time":"06:00 PM",
+        "Source":"Kolkata",
+        "Destination":"Chennai",
+        "Fare":500,
+        "Coach Type":"Non AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 12,
+        "Bus Name":"Prime Travels",
+        "Departure Time":"10:00 PM",
+        "Source":"Kolkata",
+        "Destination":"Mumbai",
+        "Fare":500,
+        "Coach Type":"AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 13,
+        "Bus Name":"Elite Travels",
+        "Departure Time":"11:00 PM",
+        "Source":"Mumbai",
+        "Destination":"Kolkata",
+        "Fare":600,
+        "Coach Type":"AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 14,
+        "Bus Name":"Prime Travels",
+        "Departure Time":"07:00 PM",
+        "Source":"Delhi",
+        "Destination":"Chennai",
+        "Fare":600,
+        "Coach Type":"AC",
+        "Seats Available": 36,
+        "bookings":{}
+    },
+    {
+        "id": 15,
+        "Bus Name":"Elite Travels",
+        "Departure Time":"10:00 PM",
+        "Source":"Kolkata",
+        "Destination":"Bangalore",
+        "Fare":500,
+        "Coach Type":"Non AC",
+        "Seats Available": 36,
+        "bookings":{}
+    }
+]
