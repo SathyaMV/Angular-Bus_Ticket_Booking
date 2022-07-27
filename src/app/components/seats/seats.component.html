@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row">
+    <div class="col d-flex justify-content-center align-items-center" ngbTooltip="Click on seat icons to select seats">
+      <form [formGroup]="form" class="w-50 ">
+        <h3 class="mt-3">Select Seats</h3>
+        <hr class="w-75 text-center">
+        <ng-container formArrayName="seats">
+          <ng-container *ngFor="let _ of seats.controls; index as i" >
+            <label class="seatCheckbox text-center" [id]="i" >
+              <input type="checkbox" [formControlName]="i" [id]="i" [attr.disabled]="seatStatus[i] ? true : null">
+              <span class="m-2 text-center"></span>
+            </label>
+            <br *ngIf="i%4==3">
+            <br *ngIf="i%2==3">
+          </ng-container>
+        </ng-container>
+      </form>
+    </div>
+    <div class="col">
+        <div class="row">
+            <div>
+                <h1>Selected Seats</h1>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Seat</th>
+                            <th>Fare</th>
+                            <th>Coach</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let i of selectedSeats">
+                            <td>{{ i + 1 }}</td>
+                            <td>{{ busDetails['Fare'] | currency: 'INR' }}</td>
+                            <td>{{ busDetails['Coach Type'] }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row total">
+              <h4>Total : {{selectedSeats.length * busDetails['Fare'] | currency: 'INR'}}</h4>
+          </div>
+          <div class="row justify-content-center">
+            <button class="btn btn-primary btn-block" type="submit" (click)="submit()"> Confirm </button>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>

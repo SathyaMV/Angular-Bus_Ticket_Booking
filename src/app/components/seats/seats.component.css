@@ -1,0 +1,27 @@
+.seatCheckbox input {
+  margin-left: 20px;
+}
+
+.seatCheckbox input[type="checkbox"] {
+  display: none;
+}
+
+.seatCheckbox span:before {
+  width: 1em;
+  height: 1em;
+  content: url("../../../assets/seat.svg");
+  margin-right: 0.3em;
+}
+
+.seatCheckbox input[type="checkbox"]:checked ~ span:before {
+  content: url("../../../assets/seat-filled.svg");
+}
+
+.seatCheckbox input[type="checkbox"]:disabled ~ span:before {
+  content: url("../../../assets/seat-disabled.svg");
+}
+
+.total{
+  padding: 4px;
+  margin: 4px;
+}

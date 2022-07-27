@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col p-5">
+            <div class="card p-5">
+                <h5 class="card-header">Passenger Details</h5>
+                <div class="card-body">
+                    <form [formGroup]="passengerInfo" >
+                        <div class="mb-3">
+                            <label for="username">User Name: </label>
+                            <input type="text" class="form-control" formControlName="username" id="username" name="username" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="mobile">Mobile: </label>
+                            <input type="number" class="form-control" formControlName="mobile" id="mobile" name="mobile" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="mail">Email: </label>
+                            <input type="email" class="form-control" formControlName="mail" id="mail" name="mail" >
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-danger" type="submit" (click)="submit()">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

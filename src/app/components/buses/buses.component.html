@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="my-3">
+        <button class="btn btn-info" (click)="goBack()">
+          Back
+        </button>
+      </div>
+      <div>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th *ngFor="let key of keys">{{ key }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let bus of buses">
+                <td *ngFor="let key of keys">{{ bus[key] }}</td>
+                <td>
+                    <button type="button" class="btn btn-danger" [routerLink]="['/seats', bus.id]">
+                        View Seats
+                    </button>
+                </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
